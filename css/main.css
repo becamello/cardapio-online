@@ -213,7 +213,7 @@ a.navbar-brand {
 }
 
 .background-servicos {
-    background-image: url(../img/bg-icons-2.png);
+    background-image: url(/img/bg-icons-2.png);
     position: absolute;
     left: 0;
     right: 0;
@@ -226,7 +226,7 @@ a.navbar-brand {
 }
 
 .cardapio .cardapio-background {
-    background-image: url(../img/bg-icons-1.png);
+    background-image: url(/img/bg-icons-1.png);
     position: absolute;
     left: 0;
     right: 0;
@@ -409,7 +409,7 @@ a.navbar-brand {
 }
 
 .background-depoimentos {
-    background-image: url(../img/bg-icons-1.png);
+    background-image: url(/img/bg-icons-1.png);
     position: absolute;
     left: 0;
     right: 0;
