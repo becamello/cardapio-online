@@ -186,6 +186,28 @@
 
     .modal-full .form-control {
         font-size: 16px;
+        padding: 10px 20px!important;
+    }
+
+    .modal-full .form-group label {
+        padding-top: 15px;
+        font-size: 16px;
     }
     
+    .m-footer, .m-footer .texto-total, .m-footer span.valor-total {
+        font-size: 16px;
+    }
+
+    .m-footer .btn-yellow, .m-footer .btn-white {
+        font-size: 16px;
+        padding: 10px 20px!important;
+    }
+
+    .modal-full #resumoCarrinho, .modal-full .title-produto-resumo, .modal-full .dados-produto {
+        font-size: 16px!important;
+    }
+
+    .modal-full #resumoCarrinho p {
+        font-size: 18px;
+    }
 }
