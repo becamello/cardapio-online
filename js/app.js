@@ -17,6 +17,7 @@ cardapio.eventos = {
     init: () => {
       cardapio.metodos.obterItensCardapio();
       cardapio.metodos.carregarBotaoReserva();
+      cardapio.metodos.carregarBotaoLigar();
     }
 
 }
@@ -516,6 +517,12 @@ cardapio.metodos = {
         let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
 
         $("#btnReserva").attr('href', URL);
+    },
+
+    // carrega o botão de ligar
+    carregarBotaoLigar: () => {
+
+        $("#btnLigar").attr('href', `tel:${CELULAR_EMPRESA}`);
     },
 
     //mensagens
