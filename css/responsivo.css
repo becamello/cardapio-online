@@ -186,7 +186,6 @@
 
     .modal-full .form-control {
         font-size: 16px;
-        padding: 10px 20px!important;
     }
 
     .modal-full .form-group label {
@@ -210,4 +209,5 @@
     .modal-full #resumoCarrinho p {
         font-size: 18px;
     }
+
 }
